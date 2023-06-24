@@ -3,7 +3,9 @@ import './gallery.css'
 
 const Gallery = () => {
   return (
-<div>GALLERY</div>
+<section id='gallery'>
+      <div>GALLERY</div>
+    </section>
   )
 }
 

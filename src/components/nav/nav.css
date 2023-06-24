@@ -1,0 +1,48 @@
+nav{
+  background-color: red;
+  height: 120px;
+  z-index: 2;
+  position: fixed;
+  margin-top: -125px;
+  padding: 16px;
+  display: flex;
+}
+.text{
+  font-size: 12px;
+}
+
+.icon{
+  color: var(--colour-accent-second);
+  width: 12px;
+  height: 12px;
+}
+
+.mg_logo{
+  font-size: 50px;
+}
+
+.nav_container{
+  height: 60px;
+  background-color: var(--colour-white);
+  opacity: 0.5;
+}
+
+nav a {
+  background: transparent;
+  padding: 2px;
+  border-radius: 10%;
+  display: flex;
+  font-size: 15px;
+}
+
+nav a:hover {
+font-weight: bold;
+}
+
+nav a.active {
+  text-decoration: underline;
+  color: var(--colour-accent-third);
+}
+
+
+

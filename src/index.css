@@ -1,4 +1,17 @@
-/*Add google */
+ @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;900&family=Cinzel+Decorative:wght@400;700;900&family=PT+Serif:ital@1&display=swap');
+/*
+Catamaran:
+- ExtraLight 200
+- Black 900
+
+Cinzel Decorative:
+- Regular 400
+- Bold 700
+- Black 900
+
+PT Serif:
+- Regular 400 Italic
+*/
 
 * {
   margin:0;
@@ -8,3 +21,50 @@
   list-style: none;
   text-decoration: none;
 }
+
+:root {
+
+  /*Colour palette*/
+  --colour-accent-main: #905643;
+  --colour-bg: #0a1726;
+  --colour-accent-second: #769c60;
+  --colour-accent-thind: #e9b299;
+  --colour-white: #ffffff;
+  --colour-var-blue: #6498d0;
+  --volour-var-light: #e3d3c1;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md:86%;
+  --container-width-sm:90%;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+body {
+  background: var(--colour-bg);
+  color: var(--colour-white);
+}
+
+ /* ===================GENERAL STYLES ================= */
+
+ .container {
+  width: var(--container-width-lg);
+  margin: auto;
+  left: 50%;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+
+

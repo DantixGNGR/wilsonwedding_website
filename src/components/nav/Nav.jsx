@@ -1,5 +1,10 @@
 import React from 'react'
 import './nav.css'
+import {IoLocationOutline} from 'react-icons/ci'
+import {CiClock2} from 'react-icons/ci'
+import {CiPhone} from 'react-icons/ci'
+import {CiMail} from 'react-icons/ci'
+
 
 const Nav = () => {
   // const [activeNav, setActiveNav] = useState("#")

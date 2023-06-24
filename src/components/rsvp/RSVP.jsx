@@ -3,7 +3,9 @@ import './rsvp.css'
 
 const RSVP = () => {
   return (
-<div>RSVP</div>
+<section id='rsvp'>
+      <div>RSVP</div>
+    </section>
   )
 }
 
