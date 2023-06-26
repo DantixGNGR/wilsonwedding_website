@@ -1,0 +1,14 @@
+.home_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("/src/components/home/assets/MGBackground.png");
+  background-size: cover;
+  position: relative;
+  padding: 0 5%;
+}
+
+
